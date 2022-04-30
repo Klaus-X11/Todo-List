@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;700;1,200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200&display=swap');
 *{
     box-sizing: border-box; 
     padding: 0;
@@ -100,8 +99,35 @@ a{
     font-weight: bold;
 }
 
+.todo-list {
+    text-align: left;
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+.todo-list li {
+    padding: 0.8rem;
+    background: #694e55;
+    color: white;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-btn {
+    background-color: #694e55;
+    color: white;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 .section-signup {
-    margin-top: 5rem;
+    margin: 5rem auto;
     text-align: center;
     background: rgb(227, 225, 225);
     border-radius: 10px;
@@ -127,6 +153,18 @@ a{
     width: 100%;
     padding: 0.6rem;
 
+}
+
+.signupForm textarea {
+    width: 100%;
+}
+
+.signup-btn {
+    background: #997279;
+    color: white;
+    padding: 1rem 2rem;
+    display: block;
+    margin: 1.2rem auto;
 }
 
 .form-group {
